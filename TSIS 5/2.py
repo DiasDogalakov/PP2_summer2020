@@ -2,7 +2,7 @@ import re
 s = input()
 
 def function(s):
-        patterns = 'ab*'
+        patterns = 'ab*?'
         if re.search(patterns, s):
                 return True
         else:
